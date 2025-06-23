@@ -86,7 +86,7 @@ if __name__ == '__main__':
     parser.add_argument('--dataset_name', type=str, default='scannet')
     parser.add_argument('--feature_2d_extractor', type=str, default='openseg',help='[lseg,openseg]')
     parser.add_argument('--loop', type=int, default=5)
-    parser.add_argument('--data_root_2d_fused_feature', type=str, default='../scannet_multiview_openseg') #required=True) '/media/zhangc/Data/Dataset/open_vocabu/Our_data/scannet_multiview_openseg'
+    parser.add_argument('--data_root_2d_fused_feature', type=str, default='../scannet_multiview_openseg')
     args = parser.parse_args()
     # dataset_path = args.dataset_path
     num_epochs = args.num_epochs
