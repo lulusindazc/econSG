@@ -1,0 +1,19 @@
+name: ovsemgsdep
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - plyfile=1.0.3 
+  - python=3.11.7
+  - pip=23.3.1
+  - pytorch=2.1.1
+  - torchaudio=2.1.1
+  - torchvision=0.16.1 
+  - tqdm
+  - pip:
+    - submodules/langdepsplat-rasterization
+    - submodules/simple-knn
+
+
+    

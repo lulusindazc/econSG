@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../3D/nerf/mononeus_our"
+		},
+		{
+			"path": "../../openscene"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
