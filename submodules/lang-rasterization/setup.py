@@ -15,11 +15,11 @@ import os
 os.path.dirname(os.path.abspath(__file__))
 
 setup(
-    name="langsplat_rasterization",
-    packages=['langsplat_rasterization'],
+    name="lang_rasterization",
+    packages=['lang_rasterization'],
     ext_modules=[
         CUDAExtension(
-            name="langsplat_rasterization._C",
+            name="lang_rasterization._C",
             sources=[
             "cuda_rasterizer/rasterizer_impl.cu",
             "cuda_rasterizer/forward.cu",
